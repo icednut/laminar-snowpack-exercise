@@ -1,0 +1,22 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/icednut/workspace/opensource/laminar-snowpack-example/website/target/scala-2.13/root-fastopt[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 1714018 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 109296 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: 1882356 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Incremental part: 412644 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizing 5833 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: Optimizer part: 2541753 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mOptimizer: 2970581 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 319132 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 13163 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 352218 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Calculate Dependency Info: 4778 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Analyze Modules: 1242 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: Assemble Modules: 9874 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mModule Splitter: 23559 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Generate Classes: 894570 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Write trees: 66053 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 731[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: reused: 0 -- invalidated: 2769[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: 1018778 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasicBackend: Write result: 371751 us[0m
