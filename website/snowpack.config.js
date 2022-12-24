@@ -18,16 +18,16 @@ mount[`target/scala-${scalaVersion}/${sbtProjectName}-${scalaJsOptMode}`] = '/'
 let plugins = [
   "@snowpack/plugin-postcss",
 ]
-if (!developmentMode) {
-  plugins.push(
-    ["snowpack-plugin-content-hash", {
-      exts: [".js", ".css"], // Extensions of files to be affected by this plugin. Note: only .js or .jsx are valid extensions.
-      silent: true, // Provide log output during build process. Default: true.
-      hashLength: 8, // Specify the max length of the resulting hash string. Defaults to 0 for the full length.
-      hashAlgorithm: "sha256", // Specify the hash algorithm. Defaults to md5.
-    }]
-  )
-}
+//if (!developmentMode) {
+//  plugins.push(
+//    ["snowpack-plugin-content-hash", {
+//      exts: [".js", ".css"], // Extensions of files to be affected by this plugin. Note: only .js or .jsx are valid extensions.
+//      silent: true, // Provide log output during build process. Default: true.
+//      hashLength: 8, // Specify the max length of the resulting hash string. Defaults to 0 for the full length.
+//      hashAlgorithm: "sha256", // Specify the hash algorithm. Defaults to md5.
+//    }]
+//  )
+//}
 
 /** @type {import('snowpack').SnowpackUserConfig } */
 module.exports = {
