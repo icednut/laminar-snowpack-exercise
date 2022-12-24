@@ -15,7 +15,7 @@
     "stylelint": "^13.9.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-standard": "^20.0.0",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^1.9.6"
   },
   "browserslist": [
     "defaults"
@@ -23,9 +23,5 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build"
-  },
-  "dependencies": {
-    "@tailwindcss/forms": "^0.3.3",
-    "@tailwindcss/typography": "^0.4.1"
   }
 }
